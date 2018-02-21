@@ -8,7 +8,7 @@ class LightningPlotsSuite extends FunSuite with BeforeAndAfterAll {
   var lgn: Lightning = _
 
   override def beforeAll() {
-    lgn = Lightning("http://public.lightning-viz.org")
+    lgn = Lightning("http://localhost:3000")
     lgn.createSession("test-plots")
   }
 
