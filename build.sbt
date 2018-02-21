@@ -2,7 +2,7 @@ name := "lightning-scala"
 
 version := "0.1.0-SNAPSHOT"
 
-scalaVersion := "2.10.3"
+scalaVersion := "2.11.8"
 
 homepage := Some(url("http://lightning-viz.org"))
 
